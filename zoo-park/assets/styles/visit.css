@@ -1,0 +1,23 @@
+.shopss h1{
+    color: #2a822a;
+    text-align: center;
+}
+.shopcard{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+   
+}
+.fcard{
+    width: 20%; /* Set the width of each card to 20% */
+    display: inline-block;
+    text-align: center; /* Center align content */
+    position: relative;
+    margin-bottom: 25px;
+}
+.fcard img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,52 @@
+.nav-link{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-size: 16px ;
+    font-style: normal;
+    color: #000000 !important;
+    
+}
+.nav-link:hover{
+    color: #f7f7f7 !important;
+}
+.nav-link.active {
+    color: chartreuse !important;
+}
+.navbar-brand{
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    color: #000000 !important;
+}
+.navbar{
+    background-color: rgb(90, 129, 105) ;
+}
+
+.home-header{
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    color: #f7f7f7 !important;
+    text-align: center;
+    background: url('../images/home-bg-1.jpg');
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-variant: small-caps;    
+}
+.error-message{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #ff0000 !important;
+}

@@ -1,0 +1,146 @@
+.hmtxt{
+    background-color: rgb(246, 246, 246);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* registration para css */
+.regi{
+   
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 250, 249);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(173, 173, 173);
+    max-width: 800px; 
+    margin: auto; 
+    margin-bottom: 50px;
+}
+.regi h1{
+    color: #2a822a;
+    font-weight: 700;
+    font-family: cursive;
+
+}
+.btn-regi{
+    
+    padding: 3px 15px;
+    margin-top: 10x;
+    background-color:rgb(31, 174, 110);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: backgraond color 0.3s ease;
+    margin-left: 70%;
+
+}
+.btn-regi:hover{
+    color: aliceblue;
+}
+.btn-regi{
+    justify-content: center;
+}
+ 
+/* animals card css */
+.animals h2{
+    text-align: center;
+    color: #2a822a;
+    font-weight: 800;
+    font-size: 5em;
+    font-family:cursive;
+    
+}
+
+.aniCards {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    gap: 50px; /* Add space between cards */
+    flex-wrap: wrap; /* Allow wrapping if there are too many cards for one row */
+}
+
+.Acard {
+    width: 20%; /* Set the width of each card to 20% */
+    display: inline-block;
+    text-align: center; /* Center align content */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(46, 49, 49, 0.1);
+     transition: transform 0.3s ease-in-out; 
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    background-color: rgb(186, 200, 195);
+}
+
+.Acard:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+.Acard img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Keep image aspect ratio */
+    margin-bottom: 10px;
+}
+
+.Acard h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.Acard h6{
+    color: white;
+    font-size: 1rem;
+}
+
+.Acard p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.Acard::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: rgb(130, 242, 160);
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.Acard:hover::after {
+    width: 100%; /* Blue line expands on hover */
+}
+
+
+/* animals btn */
+.btn-read{
+    /* display: flex; */
+    padding: 3px 10px;
+    margin-top: 10x;
+    background-color: rgb(31, 174, 110);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+    transition: backgraond color 0.3s ease; 
+}
+.btn-read:hover{
+    color: aliceblue;
+}
